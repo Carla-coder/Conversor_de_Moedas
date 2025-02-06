@@ -9,6 +9,8 @@ O **Conversor de Moedas** é uma aplicação web responsiva que permite ao usuá
 
 ### 🖥️ Tela inicial:
 
+![tela inicial](https://github.com/user-attachments/assets/dbfdc9ad-3f86-4bdb-9c86-9a7ef3e64f96)
+
 A interface do **Conversor de Moedas** exibe:
 
 - Um campo de entrada para digitar o valor em BRL.
