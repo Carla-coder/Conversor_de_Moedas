@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+
     <title>Conversor de Moedas</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
@@ -106,15 +108,28 @@
 
       .marca-dagua {
         position: absolute;
-        bottom: 230px;
+        bottom: 10px;
         left: 50%;
         transform: translateX(-50%);
         font-size: 0.9rem;
         font-weight: bold;
         color: #000;
-        font-style: normal;
-        opacity: 1;
         text-align: center;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 10px;
+        }
+        .container {
+          padding: 1.5rem;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        button {
+          font-size: 0.9rem;
+        }
       }
     </style>
   </head>
